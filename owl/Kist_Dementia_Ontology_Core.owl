@@ -1,0 +1,3565 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#"
+     xml:base="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl"
+     xmlns:Kist_Dementia_Ontology_Core="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#induce -->
+
+    <owl:AnnotationProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#induce"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ConfigRelation -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ConfigRelation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaRelation -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaRelation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EventRelation -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EventRelation"/>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SymptomRelation -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SymptomRelation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#affect -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#affect">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#belong -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#belong"/>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#cares -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#cares">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#relation"/>
+        <owl:inverseOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isCaredBy"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#caused -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#caused">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#has -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#has">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasIngredint"/>
+        <owl:inverseOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isHadto"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasAge -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasAge">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasIngredint -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasIngredint">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasRelationship -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasRelationship">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#personalRel"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasSymptom -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasSymptom">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaRelation"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#identify -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#identify">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isIdentifiedBy"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#in -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#includes -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#includes">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasIngredint"/>
+        <owl:inverseOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isincludedIn"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#is-a -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#is-a">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasIngredint"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isCaredBy -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isCaredBy">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#relation"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isChildOf -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isChildOf">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isFamilyOf"/>
+        <owl:inverseOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isParentOf"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isComposedOf -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isComposedOf">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ConfigRelation"/>
+        <owl:inverseOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isComposing"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isComposing -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isComposing">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ConfigRelation"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isFamilyOf -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isFamilyOf">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#personalRel"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isHadto -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isHadto">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasIngredint"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isIdentifiedBy -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isIdentifiedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isLocatedIn -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isLocatedIn">
+        <rdfs:range rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LocationThing"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isMarreid -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isMarreid">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isFamilyOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isParentOf -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isParentOf">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isFamilyOf"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isPlayedBy -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isPlayedBy">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#relation"/>
+        <owl:inverseOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#plays"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isSibiling -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isSibiling">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isFamilyOf"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isSubjectPerson -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isSubjectPerson">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SymptomRelation"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isSupportedByEvent -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isSupportedByEvent">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EventRelation"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isSymptomCause -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isSymptomCause">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SymptomRelation"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isincludedIn -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isincludedIn">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#hasIngredint"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#needs -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#needs">
+        <owl:inverseOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#used"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#nextEvent -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#nextEvent">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EventRelation"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#personalRel -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#personalRel">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#relation"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#plays -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#plays">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#relation"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#relatedTo -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#relatedTo">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#personalRel"/>
+        <owl:inverseOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#relates"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#relates -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#relates">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#personalRel"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#relation -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#relation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#used -->
+
+    <owl:ObjectProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#used">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ContactInfo -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ContactInfo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:comment>Human Contact Information
+- string address
+- string city
+- string company_name
+- string country
+- string phone number</rdfs:comment>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#FixedPositionInfo -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#FixedPositionInfo">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SpatialInfo"/>
+        <rdfs:comment>Position - furniture and room</rdfs:comment>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialInfo -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialInfo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MovilityPositionInfo -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MovilityPositionInfo">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SpatialInfo"/>
+        <rdfs:comment>Position and Size - Object</rdfs:comment>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectInfo -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectInfo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:comment>Object Information - (Furniture and Object)
+- boolean Mobility
+- float Hardness
+- string object feature
+- string object feature for explain</rdfs:comment>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientInfo -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientInfo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:comment>Patient Information
+- boolean Dementia Patient
+- float Symptom frequency
+- float Symptom Severity</rdfs:comment>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonalInfo -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonalInfo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SpatialInfo -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SpatialInfo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:comment>Spatial Infomation
+- Location and Position
+- Size
+- boolean indoor outdoor</rdfs:comment>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#b_Mobility -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#b_Mobility">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#b_Symptom -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#b_Symptom">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#b_indoor -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#b_indoor">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SpatialInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#f_Flammability -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#f_Flammability">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialInfo"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#f_Frequency -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#f_Frequency">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#f_Hardness -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#f_Hardness">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialInfo"/>
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#f_PoisoningWeight -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#f_PoisoningWeight">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#f_Severity -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#f_Severity">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#gender -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#gender">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonalInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>female</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>male</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_Floor -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_Floor">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SpatialInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_PositionBottom -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_PositionBottom">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#FixedPositionInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_PositionLeft -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_PositionLeft">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#FixedPositionInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_PositionRight -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_PositionRight">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#FixedPositionInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_PositionTop -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_PositionTop">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#FixedPositionInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_PositionX -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_PositionX">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MovilityPositionInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_PositionY -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_PositionY">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MovilityPositionInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_SizeX -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_SizeX">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MovilityPositionInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_Sizey -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_Sizey">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MovilityPositionInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_Temperature -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_Temperature">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_age -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_age">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonalInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_ExplainFeature -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_ExplainFeature">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feature_for_explain</rdfs:comment>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_Feature -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_Feature">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morphological Feature</rdfs:comment>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_Location -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_Location">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SpatialInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_Phase -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_Phase">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Fluid</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Gas</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Liquid</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>Solid</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_Purpose -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_Purpose">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_RowMeterial -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_RowMeterial">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_address -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_address">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ContactInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_city -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_city">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ContactInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_company -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_company">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ContactInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_country -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_country">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ContactInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_job -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_job">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonalInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_name -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_name">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonalInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_phoneNum -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_phoneNum">
+        <rdfs:subPropertyOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ContactInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ADLScore -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ADLScore">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BiophysState"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Accident-Care -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Accident-Care">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person-Care-and-Support"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Adult -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Adult">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_age"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:minExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_age"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</xsd:maxExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#AgeCentric"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#AgeCentric -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#AgeCentric">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Agreeableness -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Agreeableness">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Personality"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Anger -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Anger">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Emotion"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Anxiety -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Anxiety">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Emotion"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ArmModule -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ArmModule">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#JointModule"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#AttentionSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#AttentionSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSDSupport"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSD -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSD">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PsychologicalSymptom"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSDSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSDSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PsychologicalSymtptomSupport"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BatteryCharging -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BatteryCharging">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotMechanicalAction"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BiophysState -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BiophysState">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaPatientInfomation"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BloodPressure -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BloodPressure">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InbodyState"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BodyTemperature -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BodyTemperature">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InbodyState"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Breakfast -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Breakfast">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EatingMeal"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BrushingTeeth -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BrushingTeeth">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingPerson"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CandidateCaregiver -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CandidateCaregiver">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#cares"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaPatient"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaRelationship"/>
+                            <rdf:Description rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Medical"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#b_Symptom"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CareCentric"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CareCentric -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CareCentric">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CareRelation -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CareRelation"/>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CareWorker -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CareWorker">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Medical"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Carer -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Carer">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_job"/>
+                <owl:hasValue>carer</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CareWorker"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Children -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Children">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_age"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#AgeCentric"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CognitionAbility -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CognitionAbility">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BiophysState"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CognitionRehabAppScore -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CognitionRehabAppScore">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CognitionAbility"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Conscientiousness -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Conscientiousness">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Personality"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CurrentRobotState -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CurrentRobotState">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Robot"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DailyLife-Care -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DailyLife-Care">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person-Care-and-Support"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Dementia-symptom-Care -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Dementia-symptom-Care">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person-Care-and-Support"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaCentric -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaCentric">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaPatient -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaPatient">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#has"/>
+                <owl:someValuesFrom rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaPatientInfomation"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#b_Symptom"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaCentric"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaPatientInfomation -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaPatientInfomation">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isHadto"/>
+                <owl:someValuesFrom rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaPatient"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaRelationship -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaRelationship">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaSymptom -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaSymptom">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaPatientInfomation"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Dinner -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Dinner">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EatingMeal"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Disgust -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Disgust">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Emotion"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Doctor -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Doctor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_job"/>
+                <owl:hasValue>doctor</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CareWorker"/>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MedicalPerson"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Dressing -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Dressing">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HumanDailyJob"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DressingSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DressingSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DailyLife-Care"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EatSomeSnack -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EatSomeSnack">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EatingMeal"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EatingMeal -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EatingMeal">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HumanDailyJob"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EffecticeCaregiver -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EffecticeCaregiver">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#b_Symptom"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CareCentric"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Elder -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Elder">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_age"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#AgeCentric"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Emotion -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Emotion">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PsychologicalState"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EmotionSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EmotionSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSDSupport"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Engineer -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Engineer">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_job"/>
+                <owl:hasValue>engineer</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WorkCentric"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Environment -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Environment"/>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Evacuation -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Evacuation">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HumanPhysiologicalTask"/>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientScheduledJob"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EvacuationSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EvacuationSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DailyLife-Care"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EventReadyStateRequest -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EventReadyStateRequest">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ScheduledEventSupportRequest"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Excreta -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Excreta">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Evacuation"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Extraversion -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Extraversion">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Personality"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#FavoritesThing -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#FavoritesThing">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonInfomation"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#GetHealthCare -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#GetHealthCare">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#UserGoal"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#GetKnowledge -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#GetKnowledge">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#UserGoal"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#GetReception -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#GetReception">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#UserGoal"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HRI -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HRI">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CareRelation"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Happiness -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Happiness">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Emotion"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HeadModule -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HeadModule">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#JointModule"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HealthState -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HealthState">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonInfomation"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HealthState-Care -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HealthState-Care">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person-Care-and-Support"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HeartRate -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HeartRate">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InbodyState"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Hobby -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Hobby">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PsychologicalState"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HumanAction -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HumanAction">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonTask"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HumanDailyJob -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HumanDailyJob">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonTask"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HumanPhysiologicalTask -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HumanPhysiologicalTask">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonTask"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InbodyState -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InbodyState">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HealthState"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InteractionEffect -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InteractionEffect">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InteractionResult"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InteractionResult -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InteractionResult">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HRI"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InterectionEvent -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InterectionEvent">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HRI"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#JointModule -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#JointModule">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotConfiguration"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#JointState -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#JointState">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HealthState"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LanguageSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LanguageSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSDSupport"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LeftArm -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LeftArm">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ArmModule"/>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LegModule"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LegModule -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LegModule">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#JointModule"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LocationThing -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LocationThing">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SpatialThing"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LocationforCare -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LocationforCare">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EffecticeCaregiver"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#b_indoor"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Lunch -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Lunch">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EatingMeal"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MMSE_Score -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MMSE_Score">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CognitionAbility"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MakeConnection -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MakeConnection">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#UserGoal"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialThing -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialThing">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SpatialThing"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MealSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MealSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DailyLife-Care"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Medical -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Medical">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WorkCentric"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MedicalKnowlegeCare -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MedicalKnowlegeCare">
+        <owl:equivalentClass rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MedicalPerson"/>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EffecticeCaregiver"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MedicalPerson -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MedicalPerson">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Medical"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MemorySupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MemorySupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSDSupport"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Motor -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Motor">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#JointModule"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MovilitySupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MovilitySupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PhysicalSupport"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Nagative -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Nagative">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#FavoritesThing"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#NagativeBehavior -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#NagativeBehavior">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Nagative"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#NagativeEffect -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#NagativeEffect">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InteractionEffect"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#NagativeObject -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#NagativeObject">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Nagative"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#NagativePerson -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#NagativePerson">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Nagative"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Neuroticism -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Neuroticism">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Personality"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#NonDementia -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#NonDementia">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#b_Symptom"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaCentric"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Nurse -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Nurse">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_job"/>
+                <owl:hasValue>nurse</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#CareWorker"/>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MedicalPerson"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SpatialThing"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Openness -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Openness">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Personality"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientAction -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientAction">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientTask"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientCarer -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientCarer">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaRelationship"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientCoworker -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientCoworker">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaRelationship"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientFamiliy -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientFamiliy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isFamilyOf"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaPatient"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isFamilyOf"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientFamiliy"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaRelationship"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientFriend -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientFriend">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaRelationship"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientScheduledJob -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientScheduledJob">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientTask"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientSupportingService -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientSupportingService">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotService"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientTask -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientTask">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaPatientInfomation"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PerceptionModule -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PerceptionModule">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotConfiguration"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PerceptionSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PerceptionSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSDSupport"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#has"/>
+                <owl:someValuesFrom rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonInfomation"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person-Care-and-Support -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person-Care-and-Support">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InterectionEvent"/>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientSupportingService"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonInfomation -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonInfomation">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#isHadto"/>
+                <owl:someValuesFrom rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonSupportingService -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonSupportingService">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotService"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonTask -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonTask">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonInfomation"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Personality -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Personality">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PsychologicalState"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Pharmacist -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Pharmacist">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#str_job"/>
+                <owl:hasValue>pharmacist</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MedicalPerson"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PhysicalCare -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PhysicalCare">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EffecticeCaregiver"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Adult"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#gender"/>
+                                        <owl:hasValue>female</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_age"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#n_age"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</xsd:maxInclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#gender"/>
+                                        <owl:hasValue>male</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PhysicalSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PhysicalSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Dementia-symptom-Care"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PhysicalSymptom -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PhysicalSymptom">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaSymptom"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Positive -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Positive">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#FavoritesThing"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PositiveBehavior -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PositiveBehavior">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Positive"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PositiveEffect -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PositiveEffect">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InteractionEffect"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PositiveObject -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PositiveObject">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Positive"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PositivePerson -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PositivePerson">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Positive"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PsychologicalState -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PsychologicalState">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonInfomation"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PsychologicalSymptom -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PsychologicalSymptom">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaSymptom"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PsychologicalSymtptomSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PsychologicalSymtptomSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Dementia-symptom-Care"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PutToothpaste -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PutToothpaste">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BrushingTeeth"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ReasonSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ReasonSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSDSupport"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Reception -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Reception">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PersonSupportingService"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ReceptionOfEnvRequest -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ReceptionOfEnvRequest">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ReceptionRequest"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ReceptionRequest -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ReceptionRequest">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#UserIntent"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RightArm -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RightArm">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ArmModule"/>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LegModule"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RinseingMouth -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RinseingMouth">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BrushingTeeth"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Robot -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Robot">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#cares"/>
+                <owl:someValuesFrom rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DementiaPatient"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotAction -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotAction">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotTask"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotActionKnowledge -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotActionKnowledge">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Robot"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotCommunicateAction -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotCommunicateAction">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotAction"/>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotInteractionBehavior"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotConfiguration -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotConfiguration">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Robot"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotInfomation -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotInfomation">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Robot"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotInteractionBehavior -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotInteractionBehavior">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HRI"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotMechanicalAction -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotMechanicalAction">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotAction"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotMove -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotMove">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotAction"/>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotInteractionBehavior"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotMoving -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotMoving">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotMove"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotService -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotService">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#InterectionEvent"/>
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Robot"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotTask -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotTask">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Robot"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotWork -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotWork">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotMove"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Sadness -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Sadness">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Emotion"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ScheduleInfoRequest -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ScheduleInfoRequest">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ReceptionRequest"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ScheduledEventSupportRequest -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ScheduledEventSupportRequest">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Support-Request"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Screen-CommunicateAction -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Screen-CommunicateAction">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotCommunicateAction"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SearchingDangurousSpatialThing -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SearchingDangurousSpatialThing">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Watching"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ShakeToothbrush -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ShakeToothbrush">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BrushingTeeth"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SleepSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SleepSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DailyLife-Care"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Sleeping -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Sleeping">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HumanDailyJob"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SleepingSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SleepingSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SleepSupport"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Sound-CommunicateAction -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Sound-CommunicateAction">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotCommunicateAction"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SpatialThing -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SpatialThing">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Environment"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Urine -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Urine">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Evacuation"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#UserGoal -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#UserGoal">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HRI"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#UserIntent -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#UserIntent">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HRI"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WakeUpSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WakeUpSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#SleepSupport"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Washing -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Washing">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#HumanDailyJob"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingBody -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingBody">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingPerson"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingDish -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingDish">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingSpatialThing"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingFace -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingFace">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingPerson"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingPerson -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingPerson">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Washing"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingSpatialThing -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingSpatialThing">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Washing"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingSupport -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingSupport">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DailyLife-Care"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingTeeth -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingTeeth">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Washing"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Watching -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Watching">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PatientSupportingService"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WatchingPerson -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WatchingPerson">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Watching"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WearingBottom -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WearingBottom">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Dressing"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WearingTop -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WearingTop">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Dressing"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WearingUnderware -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WearingUnderware">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Dressing"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WorkCentric -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WorkCentric">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#attentionImpairment -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#attentionImpairment">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSD"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#emotionImpairment -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#emotionImpairment">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSD"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Support-Request -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Support-Request">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#UserIntent"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#languageImpairment -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#languageImpairment">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSD"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#locationPerception -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#locationPerception">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#perceptionImpairment"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#memoryImpairment -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#memoryImpairment">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSD"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#movilityProblem -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#movilityProblem">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#PhysicalSymptom"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#objectPerception -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#objectPerception">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#perceptionImpairment"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#perceptionImpairment -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#perceptionImpairment">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSD"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#reasonImpairment -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#reasonImpairment">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#BPSD"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#spatialMemory -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#spatialMemory">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#memoryImpairment"/>
+        <owl:disjointWith rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#temporalMemory"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#temporalMemory -->
+
+    <owl:Class rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#temporalMemory">
+        <rdfs:subClassOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#memoryImpairment"/>
+    </owl:Class>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#action_Motion -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#action_Motion">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Screen-CommunicateAction"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#action_Moving -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#action_Moving">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#RobotMove"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#action_Screen -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#action_Screen">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Screen-CommunicateAction"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#action_Song -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#action_Song">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Sound-CommunicateAction"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#action_Sound -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#action_Sound">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Sound-CommunicateAction"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#action_Speek -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#action_Speek">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Sound-CommunicateAction"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Breakfast -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Breakfast">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EatingMeal"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <isSupportedByEvent rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-MealSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-BreakfastSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-BreakfastSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MealSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-BrushingTeethSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-BrushingTeethSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-DinnerSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-DinnerSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MealSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Dressing -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Dressing">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Dressing"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <hasSymptom rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-SpatialMemorySymptom"/>
+        <isSupportedByEvent rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-DressingSupport"/>
+        <nextEvent rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Breakfast"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-DressingSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-DressingSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#DressingSupport"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-EatingMeal -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-EatingMeal">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EatingMeal"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-ExcretaSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-ExcretaSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EvacuationSupport"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-LunchSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-LunchSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MealSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-MealSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-MealSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MealSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-PossibilityReception -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-PossibilityReception">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Reception"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Reception -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Reception">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Reception"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-ShawerSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-ShawerSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Sleep -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Sleep">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Sleeping"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-SnackSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-SnackSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MealSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-TakingMedicine -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-TakingMedicine">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-UrineSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-UrineSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EvacuationSupport"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WakeUp -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WakeUp">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Sleeping"/>
+        <isSupportedByEvent rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WakeUpSupport"/>
+        <nextEvent rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Dressing"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WakeUpSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WakeUpSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WakeUpSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Washing -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Washing">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Washing"/>
+        <isSupportedByEvent rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingSupport"/>
+        <nextEvent rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Breakfast"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingBody -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingBody">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingBody"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingBodySupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingBodySupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingFace -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingFace">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingFace"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingFaceSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingFaceSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingTeeth -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingTeeth">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingTeeth"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingTeethSupport -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-WashingTeethSupport">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event"/>
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#WashingSupport"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#loc_Bed -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#loc_Bed">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LocationThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Wood_1"/>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">373</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">185</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">120</n_PositionTop>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#loc_Kit_Liv -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#loc_Kit_Liv">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LocationThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Metallic_1"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Wood_1"/>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">373</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">186</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">453</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</n_PositionTop>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#loc_Rest -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#loc_Rest">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#LocationThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Ston_1"/>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">119</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">185</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</n_PositionTop>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Metallic_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Metallic_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialThing"/>
+        <str_RowMeterial rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metal</str_RowMeterial>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Plastic_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Plastic_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialThing"/>
+        <str_RowMeterial rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plastic</str_RowMeterial>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Pottery_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Pottery_1">
+        <str_RowMeterial rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pottery</str_RowMeterial>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Ston_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Ston_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialThing"/>
+        <str_RowMeterial rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ston</str_RowMeterial>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Wood_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Wood_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialThing"/>
+        <str_RowMeterial rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wood</str_RowMeterial>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_cotton_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_cotton_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#MaterialThing"/>
+        <str_RowMeterial rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cotton</str_RowMeterial>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_DisplayController_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_DisplayController_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Wood_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">277</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">400</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">400</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">277</n_PositionTop>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Controller</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_bed_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_bed_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_cotton_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">317</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">120</n_PositionTop>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleep</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_book_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_book_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">130</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">430</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">430</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">130</n_PositionTop>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enjoy</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_book_2 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_book_2">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">150</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">430</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">430</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">150</n_PositionTop>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enjoy</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_chair_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_chair_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_cotton_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_Mobility>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sit</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_chair_2 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_chair_2">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_cotton_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_Mobility>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sit</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_diningTable_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_diningTable_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Wood_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">120</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">243</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">303</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</n_PositionTop>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_displayCabinet_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_displayCabinet_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Wood_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">287</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">393</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">453</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">167</n_PositionTop>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Container</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_display_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_display_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Metallic_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">277</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">435</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">450</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">177</n_PositionTop>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enjoy</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_drawer_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_drawer_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Wood_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">167</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">413</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">453</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">127</n_PositionTop>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Container</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_dress_bottom_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_dress_bottom_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</n_PositionTop>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_dress_top_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_dress_top_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">140</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">280</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">280</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">140</n_PositionTop>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_drugbag_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_drugbag_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">280</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">160</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">160</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">280</n_PositionTop>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_pillar_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_pillar_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Ston_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">393</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">453</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</n_PositionTop>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_refrigerator_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_refrigerator_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Metallic_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">118</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">395</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">453</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60</n_PositionTop>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Container</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_sink_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_sink_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">303</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">393</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</n_PositionTop>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_spooncase_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_spooncase_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">280</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">280</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</n_PositionTop>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_table_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_table_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Ston_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">303</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">145</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">185</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">263</n_PositionTop>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Table</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_telephone_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_telephone_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Ston_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">170</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">203</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">203</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">170</n_PositionTop>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contect</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_toilet_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_toilet_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Ston_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Mobility>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toilet</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_wardrobe_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_wardrobe_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Wood_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Mobility>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">160</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">145</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">185</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">120</n_PositionTop>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_washstand_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_washstand_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ObjectThing"/>
+        <isComposedOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#mat_Ston_1"/>
+        <b_Mobility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Mobility>
+        <str_Purpose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cleaning</str_Purpose>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#patient_1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#patient_1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <isChildOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_mother"/>
+        <isMarreid rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_mari"/>
+        <isSubjectPerson rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-ObjectPerception-1"/>
+        <b_Symptom rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_Symptom>
+        <b_indoor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_indoor>
+        <gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</gender>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">200</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">200</n_PositionTop>
+        <n_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</n_age>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#patient_2 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#patient_2">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <isSubjectPerson rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-ObjectPerception-2"/>
+        <b_Symptom rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_Symptom>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">200</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">200</n_PositionTop>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#patient_3 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#patient_3">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <isChildOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_mother"/>
+        <isMarreid rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_mari"/>
+        <isSubjectPerson rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-ObjectPerception-1"/>
+        <b_Symptom rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_Symptom>
+        <b_indoor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_indoor>
+        <gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</gender>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">127</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">220</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">220</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">127</n_PositionTop>
+        <n_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</n_age>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#patient_4 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#patient_4">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <isChildOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_mother"/>
+        <isMarreid rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_mari"/>
+        <isSubjectPerson rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-ObjectPerception-1"/>
+        <b_Symptom rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_Symptom>
+        <b_indoor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_indoor>
+        <gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</gender>
+        <n_PositionBottom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">127</n_PositionBottom>
+        <n_PositionLeft rdf:datatype="http://www.w3.org/2001/XMLSchema#int">220</n_PositionLeft>
+        <n_PositionRight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">220</n_PositionRight>
+        <n_PositionTop rdf:datatype="http://www.w3.org/2001/XMLSchema#int">127</n_PositionTop>
+        <n_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</n_age>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_carer -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_carer">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <b_Symptom rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Symptom>
+        <b_indoor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_indoor>
+        <n_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</n_age>
+        <str_job rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carer</str_job>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_grandson -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_grandson">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <isChildOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_son"/>
+        <b_Symptom rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Symptom>
+        <b_indoor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_indoor>
+        <n_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</n_age>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_mari -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_mari">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <b_Symptom rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Symptom>
+        <b_indoor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_indoor>
+        <gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</gender>
+        <n_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</n_age>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_mother -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_mother">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <b_Symptom rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Symptom>
+        <b_indoor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_indoor>
+        <n_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</n_age>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_nurse -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_nurse">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <b_Symptom rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Symptom>
+        <b_indoor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_indoor>
+        <n_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</n_age>
+        <str_job rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nurse</str_job>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_sibling -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_sibling">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <isChildOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_mother"/>
+        <b_Symptom rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Symptom>
+        <b_indoor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_indoor>
+        <n_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</n_age>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_son -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_son">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <isChildOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#patient_1"/>
+        <b_Symptom rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Symptom>
+        <b_indoor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</b_indoor>
+        <gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</gender>
+        <n_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</n_age>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_son2 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_son2">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <isChildOf rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#patient_1"/>
+        <isMarreid rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_son_mari"/>
+        <b_Symptom rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_Symptom>
+        <b_indoor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_indoor>
+        <gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</gender>
+        <n_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</n_age>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_son_mari -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_son_mari">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Person"/>
+        <isMarreid rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#person_son"/>
+        <b_indoor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</b_indoor>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#request_EventPossibility -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#request_EventPossibility">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#EventReadyStateRequest"/>
+        <induce rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event_EventPossibilityReception"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#request_Knowledge -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#request_Knowledge">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ReceptionOfEnvRequest"/>
+        <induce rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event_Reception"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#request_Manual -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#request_Manual">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ReceptionOfEnvRequest"/>
+        <induce rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event_Reception"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#request_PhysicalReception -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#request_PhysicalReception">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ReceptionOfEnvRequest"/>
+        <induce rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event_Reception"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#request_Position -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#request_Position">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ReceptionOfEnvRequest"/>
+        <induce rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event_Reception"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#request_Schedule_Info -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#request_Schedule_Info">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#ScheduleInfoRequest"/>
+        <induce rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#Event_Reception"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-LocationPerception -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-LocationPerception">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#locationPerception"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-MovilityProblem -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-MovilityProblem">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#movilityProblem"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-ObjectPerception -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-ObjectPerception">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#objectPerception"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-ObjectPerception-1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-ObjectPerception-1">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#objectPerception"/>
+        <isSymptomCause rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#event-Breakfast"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-ObjectPerception-2 -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-ObjectPerception-2">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#objectPerception"/>
+        <isSymptomCause rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#obj_drugbag_1"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-SpatialMemorySymptom -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-SpatialMemorySymptom">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#spatialMemory"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-TemporalMemoryLoss -->
+
+    <owl:NamedIndividual rdf:about="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#symptom-TemporalMemoryLoss">
+        <rdf:type rdf:resource="https://www.dtc.kist.re.kr/owl/Kist_Dementia_Ontology_Core.owl#temporalMemory"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->

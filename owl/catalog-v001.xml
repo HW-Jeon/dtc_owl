@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="file:///home/sangyun/Downloads/relationship.owl" uri="file:///home/sangyun/Downloads/relationship.owl"/>
+    <uri id="Imports Wizard Entry" name="file:///home/sangyun/Downloads/map_of_relationship.owl" uri="file:///home/sangyun/Downloads/map_of_relationship.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="duplicate:file:///home/kist/workspace/contextReasoner/owl/DRO.owl" uri="DRO_old_171026.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="duplicate:file:///home/kist/workspace/contextReasoner/owl/DRO.owl" uri="DRO_old.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="duplicate:file:///home/kist/workspace/contextReasoner/owl/DRO.owl" uri="DRO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="duplicate:file:///home/kist/workspace/contextReasoner/owl/DRO.owl" uri="DRO_Blue.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="duplicate:file:///home/kist/workspace/contextReasoner/owl/DRO.owl" uri="DRO_Red.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="file:///home/kist/workspace/contextReasoner/owl/KiRO_Env.owl" uri="KiRO_Env.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="file:///home/kist/workspace/contextReasoner/owl/Kist_Dementia_Ontology_Core.owl" uri="Kist_Dementia_Ontology_Core.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="file:///home/kist/workspace/contextReasoner/owl/Kist_Dementia_Ontology_Env.owl" uri="Kist_Dementia_Ontology_Env.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="file:///home/kist/workspace/contextReasoner/owl/Kist_Dementia_Ontology_Event.owl" uri="Kist_Dementia_Ontology_Event.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="file:///home/kist/workspace/contextReasoner/owl/Kist_SocioOntol.owl" uri="Kist_SocioOntol.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="file:///home/kist/workspace/contextReasoner/owl/Kist_mapData.owl" uri="Kist_mapData.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="duplicate:file:///home/kist/workspace/contextReasoner/owl/map_of_relationship.owl" uri="map_of_relationship.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="duplicate:file:///home/kist/workspace/contextReasoner/owl/map_of_relationship.owl" uri="relationship.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1510882817370" name="http://www.ict.swin.edu.au/personal/akabir/SCACOnt.owl" uri="SCACOnt.owl"/>
+    </group>
+</catalog>
